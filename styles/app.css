@@ -1,0 +1,137 @@
+
+/*aling list items right, the class 'ml-auto' in ul element also does thesame thing*/
+
+navbar-light{
+ background-color:white;
+}
+.navbar-nav {
+    margin-left: auto;
+
+    margin-right: 15rem;
+   
+ 
+    
+}
+.nav-spacing{
+     padding-right:2rem;
+}
+
+.section{
+  margin: 4rem;
+}
+
+/*****************Handles background image***********************/
+.slider{    
+  
+  /*background: url("../images/completed_house1.jpg") no-repeat;*/
+  
+ /* background: url("../images/wall1.jpg") no-repeat;*/
+ /*background: url("../images/background_image1-not-reduced.png") no-repeat;*/
+
+  background: url("../images/home/givewell-background.jpg") no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+ 
+
+ /*padding: 200px 0 250px 0;*/
+
+ padding: 350px 0 450px 0;
+  position: relative;
+
+ /*background-color:ghostwhite;
+ border:none ;*/
+  
+ }
+
+
+.divMargin{
+
+  margin-top: 90px;
+
+}
+ 
+
+footer{
+  height:11rem;
+}
+.social{
+  margin-top: 5rem;
+}
+.contacts{
+  margin-top: 4rem;
+}
+/***********Media query************/
+
+@media only screen and (max-width: 600px) {
+  footer{
+    height:5rem;
+  }
+  .contacts{
+    margin-bottom: -6rem;
+  }
+
+  
+}
+
+/***************Begin Donate Button style******************/
+
+/* From Uiverse.io by adamgiebl */ 
+.cssbuttons-io-button {
+  /*background: #a370f0;*/
+  background:lightskyblue;
+  color: white;
+  font-family: inherit;
+  padding: 0.35em;
+  padding-left: 1.2em;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 0.9em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0 0 1.6em -0.6em #714da6;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-right: 3.3em;
+  cursor: pointer;
+}
+
+.cssbuttons-io-button .icon {
+  background: white;
+  margin-left: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.7em;
+  /*box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;*/
+   box-shadow: 0.1em 0.1em 0.6em 0.2em green;
+  right: 0.3em;
+  transition: all 0.3s;
+}
+
+.cssbuttons-io-button:hover .icon {
+  width: calc(100% - 0.6em);
+}
+
+.cssbuttons-io-button .icon svg {
+  width: 1.1em;
+  transition: transform 0.3s;
+  /*color: #7b52b9;*/
+   color: green;
+}
+
+.cssbuttons-io-button:hover .icon svg {
+  transform: translateX(0.1em);
+}
+
+.cssbuttons-io-button:active .icon {
+  transform: scale(0.95);
+}
+
+
+/***************End Donate Button style******************/
