@@ -12,8 +12,7 @@
 <div class="paypalDiv" >
     
 
-
-<div id="paypal-button-container-P-04R00784750741049NIQKAYA"></div>
+<div id="paypal-button-container-P-88068427U3736920RNJ4OAXY"></div>
 <script src="https://www.paypal.com/sdk/js?client-id=AQhB9xWPosRps95fHW7pjpIS6RyBca6ye6a4FB-9eVK9ALlt0zsfxZ9onLHBrq7rS_Dduqm6dzlS_ayP&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
 <script>
   paypal.Buttons({
@@ -21,19 +20,18 @@
           shape: 'pill',
           color: 'gold',
           layout: 'vertical',
-          label: 'subscribe',
-          textAlign:'center'
+          label: 'paypal'
       },
       createSubscription: function(data, actions) {
         return actions.subscription.create({
           /* Creates the subscription */
-          plan_id: 'P-04R00784750741049NIQKAYA'
+          plan_id: 'P-88068427U3736920RNJ4OAXY'
         });
       },
       onApprove: function(data, actions) {
         alert(data.subscriptionID); // You can add optional success message for the subscriber here
       }
-  }).render('#paypal-button-container-P-04R00784750741049NIQKAYA'); // Renders the PayPal button
+  }).render('#paypal-button-container-P-88068427U3736920RNJ4OAXY'); // Renders the PayPal button
 </script>
 
 </div>
