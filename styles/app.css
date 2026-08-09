@@ -135,3 +135,14 @@ footer{
 
 
 /***************End Donate Button style******************/
+
+/*******Payment Button**********/
+
+
+
+.paypalDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
