@@ -28,14 +28,18 @@ navbar-light{
  /* background: url("../images/wall1.jpg") no-repeat;*/
  /*background: url("../images/background_image1-not-reduced.png") no-repeat;*/
 
-  background: url("../images/home/givewell-background.jpg") no-repeat;
+  background: url("../images/home/givewell-background4.jpg") no-repeat;
   background-size: cover;
-  background-position: 50% 50%;
- 
+  /*background-position: 50% 50%;*/
+   background-position: 50% 50%;
 
+   /*  background-size: auto;*/
  /*padding: 200px 0 250px 0;*/
 
  padding: 350px 0 450px 0;
+
+
+
   position: relative;
 
  /*background-color:ghostwhite;
